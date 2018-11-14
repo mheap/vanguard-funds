@@ -1,0 +1,25 @@
+{
+  "name": "vanguard-funds",
+  "version": "0.0.2",
+  "description": "Fetch the status of your Vanguard investment funds as JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vanguard",
+    "puppeteer",
+    "scraper"
+  ],
+  "author": "Michael Heap <m@michaelheap.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "enquirer": "^2.0.7",
+    "local-credentials": "0.0.2",
+    "puppeteer": "^1.10.0"
+  },
+  "bin": {
+    "vanguard-funds": "./index.js"
+  }
+}
