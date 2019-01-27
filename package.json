@@ -1,6 +1,6 @@
 {
   "name": "vanguard-funds",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fetch the status of your Vanguard investment funds as JSON",
   "main": "index.js",
   "scripts": {

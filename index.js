@@ -60,8 +60,8 @@ const packageDetails = require(path.join(__dirname, "package.json"));
 
     await page.goto('https://secure.vanguardinvestor.co.uk/Login');
 
-    await page.type('#\__GUID_1006', credentials.username);
-    await page.type('#\__GUID_1007', credentials.password);
+    await page.type('#\__GUID_1007', credentials.username);
+    await page.type('#\__GUID_1008', credentials.password);
 
     await page.click('.submit > .btn-primary');
 
